@@ -52,7 +52,7 @@ function RenderExample({ example }) {
                     <h1 className="mb-0">{example.title}</h1>
                 </div>
                 <div className="col-1"></div>
-                <div className="col-12 py-5 text-center"><a href={example.siteAdressWeb} className="mainButton btn globeButton" title="navigate to website">{globe}</a>
+                <div className="col-12 py-5 text-center"><a href={example.siteAdressWeb} target="_blank" rel="noopener noreferrer" className="mainButton btn globeButton" title="navigate to website">{globe}</a>
                 </div>
             </div>
             <div className="row">
@@ -74,14 +74,14 @@ function RenderExample({ example }) {
             <div className="row">
                 <div className="col-12 col-md-8 order-1 mx-auto text-center text-md-left" >
                     <h3>{example.websiteTitle}</h3>
-                    <a href={example.siteAdressWeb}>
+                    <a href={example.siteAdressWeb} target="_blank" rel="noopener noreferrer">
                         <img
                             className="img-fluid imgWidth"
                             src={example.img2} alt={example.title} /></a>
                 </div>
                 <div className="col-12 col-md-4 order-md-2 order-3 mx-auto pb-3 text-center text-md-left">
                     <h3>{example.htmlEmailTitle}</h3>
-                    <a href={example.emailHtmlAdress}>
+                    <a href={example.emailHtmlAdress} target="_blank" rel="noopener noreferrer">
                         <img
                             className="img-fluid imgWidth"
                             src={example.img3} alt={example.title} /></a>
@@ -95,9 +95,9 @@ function RenderExample({ example }) {
                     <div className="row">
                         <div className="col-12 mx-auto ml-md-0 text-center linksExamplePage" style={{ maxWidth: '200px' }}>
                             <div className="row">
-                                <div className="col-4"><a href={example.siteAdressWeb} className="mainButton btn globeButton" title="navigate to website">{globe}</a></div>
-                                <div className="col-4"><a className="cursor" href={example.siteAdressGit} alt={example.siteAdressWeb}>{github}</a></div>
-                                <div className="col-4"><a className="cursor" href={example.siteFigma} alt={example.siteAddressWeb}>{figma}</a></div>
+                                <div className="col-4"><a href={example.siteAdressWeb} target="_blank" rel="noopener noreferrer" className="mainButton btn globeButton" title="navigate to website">{globe}</a></div>
+                                <div className="col-4"><a className="cursor" href={example.siteAdressGit} target="_blank" rel="noopener noreferrer" alt={example.siteAdressWeb}>{github}</a></div>
+                                <div className="col-4"><a className="cursor" href={example.siteFigma} alt={example.siteAddressWeb} target="_blank" rel="noopener noreferrer">{figma}</a></div>
                             </div>
                         </div>
                     </div>
@@ -112,9 +112,9 @@ function RenderExample({ example }) {
                     <div className="row">
                         <div className="col-12 mx-auto ml-md-0 text-center linksExamplePage" style={{ maxWidth: '200px' }}>
                             <div className="row">
-                                <div className="col-4"><a href={example.emailHtmlAdress}className="mainButton btn globeButton" title="navigate to website">{globe}</a></div>
-                                <div className="col-4"><a className="cursor" href={example.emailHtmlGit} alt={example.siteAdressWeb}>{github}</a></div>
-                                <div className="col-4"><a className="cursor" href={example.emailHtmlFigma} alt={example.siteAddressWeb}>{figma}</a></div>
+                                <div className="col-4"><a href={example.emailHtmlAdress} className="mainButton btn globeButton" title="navigate to website" target="_blank" rel="noopener noreferrer">{globe}</a></div>
+                                <div className="col-4"><a className="cursor" href={example.emailHtmlGit} alt={example.siteAdressWeb} target="_blank" rel="noopener noreferrer">{github}</a></div>
+                                <div className="col-4"><a className="cursor" href={example.emailHtmlFigma} alt={example.siteAddressWeb} target="_blank" rel="noopener noreferrer">{figma}</a></div>
                             </div>
                         </div>
                     </div>
