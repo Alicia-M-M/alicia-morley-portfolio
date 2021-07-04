@@ -51,7 +51,6 @@ class Contact extends Component {
                 </FormGroup>
                 <FormGroup check row className="pl-0">
                     <Col sm={{ size: 10 }} className="mx-auto text-center">
-                        {/* <Button>Submit</Button> */}
                         <Button className="mainButton contactFormButton">{send}</Button>
                     </Col>
                 </FormGroup>
