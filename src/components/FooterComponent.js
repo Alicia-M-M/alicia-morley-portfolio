@@ -38,9 +38,9 @@ function Footer() {
                 <div className="row h-100">
                     <div className="col-10 mx-auto my-auto" style={{ maxWidth: '150px' }}>
                         <div className="row">
-                            <div className="col-6"><a href="https://github.com/Alicia-M-M">{github}</a>
+                            <div className="col-6"><a href="https://github.com/Alicia-M-M" target="_blank" rel="noopener noreferrer">{github}</a>
                             </div>
-                            <div className="col-6"><a href='https://www.linkedin.com/in/alicia-morley-3ba99532/'>{linkedin}</a>
+                            <div className="col-6"><a href="https://www.linkedin.com/in/alicia-morley-3ba99532/" target="_blank" rel="noopener noreferrer">{linkedin}</a>
                             </div>
                         </div>
                         <div className="row">

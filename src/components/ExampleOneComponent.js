@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faBorderNone } from "@fortawesome/free-solid-svg-icons";
 
 const github = <FontAwesomeIcon icon={faGithub} />
 
@@ -37,6 +38,9 @@ const itemExample = {
 };
 
 function RenderExample({ example }) {
+
+    const removeIcon = example.siteAdressGit === 'None' ? 'hideIcon' : null;
+        
     return (
         <motion.div
             variants={itemExample}
@@ -96,7 +100,7 @@ function RenderExample({ example }) {
                         <div className="col-12 mx-auto ml-md-0 text-center linksExamplePage" style={{ maxWidth: '200px' }}>
                             <div className="row">
                                 <div className="col-4"><a href={example.siteAdressWeb} target="_blank" rel="noopener noreferrer" className="mainButton btn globeButton" title="navigate to website">{globe}</a></div>
-                                <div className="col-4"><a className="cursor" href={example.siteAdressGit} target="_blank" rel="noopener noreferrer" alt={example.siteAdressWeb}>{github}</a></div>
+                                <div className={`${removeIcon} col-4`}><a className="cursor" href={example.siteAdressGit} target="_blank" rel="noopener noreferrer" alt={example.siteAdressWeb}>{github}</a></div>
                                 <div className="col-4"><a className="cursor" href={example.siteFigma} alt={example.siteAddressWeb} target="_blank" rel="noopener noreferrer">{figma}</a></div>
                             </div>
                         </div>
@@ -112,8 +116,8 @@ function RenderExample({ example }) {
                     <div className="row">
                         <div className="col-12 mx-auto ml-md-0 text-center linksExamplePage" style={{ maxWidth: '200px' }}>
                             <div className="row">
-                                <div className="col-4"><a href={example.emailHtmlAdress} className="mainButton btn globeButton" title="navigate to website" target="_blank" rel="noopener noreferrer">{globe}</a></div>
-                                <div className="col-4"><a className="cursor" href={example.emailHtmlGit} alt={example.siteAdressWeb} target="_blank" rel="noopener noreferrer">{github}</a></div>
+                                <div className={`${removeIcon} col-4`}><a href={example.emailHtmlAdress} className="mainButton btn globeButton" title="navigate to website" target="_blank" rel="noopener noreferrer">{globe}</a></div>
+                                <div className={`${removeIcon} col-4`}><a className="cursor" href={example.emailHtmlGit} alt={example.siteAdressWeb} target="_blank" rel="noopener noreferrer">{github}</a></div>
                                 <div className="col-4"><a className="cursor" href={example.emailHtmlFigma} alt={example.siteAddressWeb} target="_blank" rel="noopener noreferrer">{figma}</a></div>
                             </div>
                         </div>

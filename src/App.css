@@ -1,10 +1,18 @@
 :root{
     --darkGrey: #353232;
     --veryLightGrey: #e6e1e1;
-    --lightPink: #ED8484;
-    --grey:#61605E;
+    /* --lightPink: #ED8484;
+    --grey:#61605E; */
+    --lightPink: #1313127e;
+    /* --lightPink: #131312; */
+    /* --lightPink: #504e4e; */
+    /* --grey:#131312; */
+    --grey:#1313127e;
     --lightGrey:#8D8D8C;
-    --yellow:#EDE284;
+    /* --yellow:#EDE284; */
+    /* --yellow:#131312; */
+    --yellow:#131312b5;
+    /* --yellow:#504e4e; */
     --white:#ffffff;
     --black:#000000;
     --backgroundColour:#ffffff;
@@ -181,7 +189,8 @@ max-width: 1400px;
 /* about center button*/
 
 .atagAbout{
-    color:#ED8484;
+    color:#eb1990;
+    /* color:#ED8484; */
     -moz-transition: color 1s ease-out; 
     -o-transition: color 1s ease-out; 
     transition: color 1s ease-out; 
@@ -196,7 +205,8 @@ max-width: 1400px;
 }
 
 .arrowColorAbout{
-    color:#353232;
+    /* color:#353232; */
+    color:#ffffff;
     -webkit-transition: color 1s ease-out;
     -moz-transition: color 1s ease-out;
     -o-transition: color 1s ease-out;
@@ -264,7 +274,8 @@ max-width: 1400px;
 
 /* portfolio hover center*/
 .atagPortfolio{
-    color:#EDE284;
+    /* color:#EDE284; */
+    color:#dcc815;
     -moz-transition: color 1s ease-out; 
     -o-transition: color 1s ease-out; 
     transition: color 1s ease-out; 
@@ -278,7 +289,8 @@ max-width: 1400px;
 }
 
 .arrowColor{
-    color:#353232;
+    /* color:#353232; */
+    color:#ffffff;
     -webkit-transition: color 1s ease-out;
     -moz-transition: color 1s ease-out;
     -o-transition: color 1s ease-out;
@@ -345,7 +357,8 @@ max-width: 1400px;
 
 /* landing */
 .atagLanding{
-    color:#ED8484;
+    /* color:#ED8484; */
+    color:#eb1990;
     -moz-transition: color 1s ease-out; 
     -o-transition: color 1s ease-out; 
     transition: color 1s ease-out; 
@@ -558,7 +571,7 @@ input:checked + .slider:before {
     color: var(--white);
     opacity: 0.9;
     position:absolute;
-    transition:all 0.9s ease-in-out;
+    transition:all 0.4s ease-in-out;
     border-radius:0px;
     left: 0;
     right: 0;
@@ -697,6 +710,10 @@ input:checked + .slider:before {
 
 .imgWidth{
     width:100%;
+}
+
+.hideIcon{
+    display: none;
 }
 /* contact form */
 .contactFormStyling .form-control{

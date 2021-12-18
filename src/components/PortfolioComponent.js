@@ -53,7 +53,7 @@ function RenderItemPort({ exampleItem, index }) {
                 'backgroundLightGrey';
 
     const textColour = exampleItem.font === 'white' ? 'textWhite' :
-        exampleItem.font === 'black' ? 'textBlack' : null;
+        exampleItem.font === 'black' ? 'textWhite' : null;
 
     return (
         <>
@@ -68,7 +68,7 @@ function RenderItemPort({ exampleItem, index }) {
                                 transition={transition}
                             />
                         </div>
-                        <div className={`${backgroundColour} overlayPostion col-12 text-center py-3`}>
+                        <div className="overlayPostion col-12 text-center py-3">
                             <h3 className={`${textColour} col-12 col-lg-8 mx-auto`}>{exampleItem.title}</h3>
                             <h6 style={{ width: '300px' }} className={`${textColour} text-center mx-auto col-10 col-xl-8`}>{exampleItem.description}</h6>
                             <div className="btn mainButton arrowButton cursor">{arrowRight}</div>
@@ -106,7 +106,7 @@ function Portfolio() {
 
                         </div>
                         <div className="col-12 pb-5 text-center">
-                            <a className="btn mainButton downloadButton" href={"/assets/images/aliciaMorleyResume.pdf"} alt='resume' title="download my resume">{download}</a>
+                            <a className="btn mainButton downloadButton" href={"/assets/images/aliciaMorleyResumeV1.pdf"} alt='resume' title="download my resume">{download}</a>
                         </div>
                     </div>
                 </motion.div>
@@ -119,7 +119,7 @@ function Portfolio() {
                             variants={staggerItem}
                         >
                             {example.map((exampleItem, index) => (
-                                <div className="px-0 d-inline-block col-md-6">
+                                <div className="px-0 d-inline-block col-md-6 p-4">
                                     <RenderItemPort key={exampleItem.id} index={index} exampleItem={exampleItem} />
                                 </div>
                             ))}
