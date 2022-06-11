@@ -69,7 +69,7 @@ export const PORTFOLIOWORK = [
         websiteTitle: 'WEBSITE',
         website: 'For the bi-weekly design layouts for the banners I created a theme for each promotion. I used a consistant text in various weights of Poppins for the button and secondary information and then chose a dynamic header font to distinguish the separate campaigns. For the colour selection I used complimentary colours to the Lifestyle photography and consider WCAG standards for accessibility when placing text over backgrounds. For the overall placement I considered the UI, how the graphics flowed and the promotional information leading to the ‘shop now’ button for a user friendly experience. I also photo edited the images depending on the layout of the graphic by extending background scenery, adding a new revelvant garment to a model in a lifestyle shot or colour changed a garment in-line with stock availability.',
         emailHtmlAdress: 'https://www.figma.com/proto/lZiNYwaMy0bVgDDTuwKPld/YogaliciousEmail?page-id=0%3A1&node-id=2%3A2&viewport=241%2C48%2C1.83&scaling=scale-down-width',
-        siteAdressWeb: 'https://yogalicious.com/',
+        siteAdressWeb: 'https://www.figma.com/proto/WykRZDwi7HTBVdcSVNQ5sU/YogaliciousWeb?page-id=0%3A1&node-id=2%3A11&viewport=241%2C48%2C0.52&scaling=scale-down-width',
         siteAdressGit: 'None',
         siteFigma: 'https://www.figma.com/proto/WykRZDwi7HTBVdcSVNQ5sU/YogaliciousWeb?page-id=0%3A1&node-id=2%3A11&viewport=241%2C48%2C0.52&scaling=scale-down-width',
         htmlEmailTitle: 'HTML EMAIL',
