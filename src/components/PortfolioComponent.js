@@ -106,7 +106,7 @@ function Portfolio() {
 
                         </div>
                         <div className="col-12 pb-5 text-center">
-                            <a className="btn mainButton downloadButton" href={"/assets/images/aliciaMorleyResumeV1.pdf"} alt='resume' title="download my resume">{download}</a>
+                            <a className="btn mainButton downloadButton" href={"/assets/images/aliciaMorleyResume2022.pdf"} alt='resume' title="download my resume">{download}</a>
                         </div>
                     </div>
                 </motion.div>
