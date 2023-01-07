@@ -30,7 +30,7 @@ export const PORTFOLIOWORK = [
     {
         id: 0,
         title: 'KATE SPADE',
-        description: 'FIGMA ADOBE PHOTOSHOP INDESIGN SKETCH',
+        description: 'FIGMA ADOBE PHOTOSHOP INDESIGN SKETCH AFTER EFFECTS',
         img1: '/assets/images/kateSpadeWebFront.png',
         titleExample: 'PORTFOLIO WEBSITE',
         objectiveTitle: 'OVERVIEW',
@@ -57,7 +57,7 @@ export const PORTFOLIOWORK = [
     {
         id: 1,
         title: 'STYLE & EDIT INTERIORS',
-        description: 'CSS HTML JS WORDPRESS AFTER EFFECTS FIGMA PHOTOSHOP',
+        description: 'HTML CSS JS WORDPRESS AFTER EFFECTS FIGMA PHOTOSHOP',
         img1: '/assets/images/interiorsFrontV1.jpg',
         titleExample: 'PORTFOLIO WEBSITE',
         objectiveTitle: 'OBJECTIVE',
