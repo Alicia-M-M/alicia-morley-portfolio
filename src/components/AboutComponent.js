@@ -52,7 +52,7 @@ function RenderAbout({ about }) {
                 </div>
             </div>
             <div className="row">
-                <div className="col-8 mx-auto pb-5 text-center"><a className="btn mainButton downloadButton" href={"/assets/images/aliciaMorleyResume2022.pdf"} alt='resume' title="download my resume">{download}</a>
+                <div className="col-8 mx-auto pb-5 text-center"><a className="btn mainButton downloadButton" href={"/assets/images/aliciaMorleyResume2023.pdf"} alt='resume' title="download my resume">{download}</a>
                 </div>
             </div>
             <div className="row">

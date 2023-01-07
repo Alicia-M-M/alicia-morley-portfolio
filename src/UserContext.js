@@ -14,13 +14,13 @@ export const ABOUT = [
 
     {
         id: 0,
-        intro: 'I am a digital marketing designer/developer who is proficient with Photoshop, Illustrator, After Effects, Figma and Sketch. I have extensive experience using e-commerce platforms Mailchimp, Shopify and Amazon Store Fronts. I have also recently expanded my skill set to include HTML, CSS, SASS, JS, React, Redux, Reactstrap and Bootstrap for web development. When working on a project I am completely dedicated and enthusiastic! I’m a great communicator and I enjoy working in a team environment.',
+        intro: 'I am a digital marketing designer/developer who is proficient with Photoshop, Illustrator, After Effects, Figma and Sketch. I have extensive experience using e-commerce platforms Mailchimp, Shopify and Amazon Store Fronts. I my skill set also includes HTML, CSS, SASS, JS, React, Redux, Reactstrap and Bootstrap for web development. When working on a project I am completely dedicated and enthusiastic! I’m a great communicator and I enjoy working in a team environment.',
         titleFront: 'DEVELOPMENT',
         frontend: ['HTML', 'CSS', 'JS', 'REACT', 'BOOTSTRAP', 'REACTSTRAP', 'GITHUB', 'MAILCHIMP', 'SHOPIFY', 'AMAZON STORE FRONTS'],
         titleDesign: 'DESIGN',
         design: ['FIGMA', 'SKETCH', 'ADOBE PHOTOSHOP', 'ADOBE ILLUSTRATOR', 'ADOBE AFTER EFFECTS','ADOBE INDESIGN', 'MAILCHIMP', 'SHOPIFY', 'AMAZON STORE FRONTS'],
         experience: 'EDUCATION & EXPERIENCE',
-        experienceList: ['DIGITAL PRODUCTION DESIGNER ~- KATE SPADE NEW YORK, MARCH 2022 - PRESENT','DIGITAL DESIGNER ~- 90 DEGREE BY REFLEX, OCT 2021 - MARCH 2022','15 YEARS GRAPHIC DESIGN ~- VARIOUS COMPANIES GLOBALLY','FULLSTACK BOOTCAMP 2020 ~- NUCAMP CALIFORNIA, USA', 'BA HONS TEXTILE DESIGN ~- CHELSEA COLLEGE OF ART, LONDON UK',],
+        experienceList: ['DIGITAL PRODUCTION DESIGNER ~- KATE SPADE NEW YORK, MARCH 2022 - PRESENT','DIGITAL DESIGNER ~- 90 DEGREE BY REFLEX, OCT 2021 - MARCH 2022','15 YEARS GRAPHIC DESIGN ~- VARIOUS COMPANIES GLOBALLY','WEB & MOBILE DEVELOPMENT BOOTCAMP 2020 ~- NUCAMP CALIFORNIA, USA', 'BA HONS TEXTILE DESIGN ~- CHELSEA COLLEGE OF ART, LONDON UK',],
         linkedInGeneral: 'https://www.linkedin.com/in/alicia-morley-3ba99532/',
         githubGeneral: 'https://github.com/Alicia-M-M'
     }
